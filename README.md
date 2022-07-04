@@ -2,7 +2,7 @@
 
 I'm a software engineer with 14 years of totall experience. Started with development banking software in Delphi 7. Then moved through ActionScript and PHP to current stack of Typescript for Vue.js/WebRTC apps. Have passion for reading RFC overnight. In the last couple of years I started planning frontend applications architecture and managing small team of 30 frontend developers. I still spend some time developing myself though. 
 
-I'm really into experimenting with brand new and ongoing technologies - right now it is WebCodecs and WebTransport. Previosly had practical experience with MediaStream Recording API, Intl, WebAR and WebUSB.
+I'm really into experimenting with brand new and ongoing technologies - right now it is WebCodecs, TensorFlow.js, and WebTransport. Previosly had practical experience with MediaStream Recording API, Intl, WebAR and WebUSB.
  
 I use my free time to help creating social media projects (in collaboration with charity fund [Nuzhna pomosh](https://nuzhnapomosh.ru/)) that educate people about HIV/AIDS, bullning, poverty and other terrible things. I do it because I believe in social journalism and its role in making our world a better place. 
 Some of this projects got international awards:
@@ -14,6 +14,7 @@ Love to speak at small regional IT-conferences because I think that helps young 
 
 - 🔭 I’m currently working on [Voximplant WebSDK](https://voximplant.com/), [Osoka.io](https://osoka.io/)
 - 💬 Ask me about WebRTC stack, Vue.js, Nest.js
+- 🌱 I’m currently learning TensorFlow.js
 - ⛑️ If you have any non-commercial project about HIV/AIDS and you need dev-support, just sign me in. It's free.
 - 📫 How to reach me: [telegram](https://t.me/irbisadm)
 - ⚡ Fun facts: 
