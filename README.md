@@ -12,7 +12,6 @@ Some of this projects got international awards:
 
 Love to speak at small regional IT-conferences because I think that helps young specialists from remote regions skill up and fight regional social inequality. 
 
-- 🔭 I’m currently working on [Voximplant WebSDK](https://voximplant.com/), [Osoka.io](https://osoka.io/)
 - 💬 Ask me about WebRTC stack, Vue.js, Nest.js
 - 🌱 I’m currently learning TensorFlow.js
 - ⛑️ If you have any non-commercial project about HIV/AIDS and you need dev-support, just sign me in. It's free.
