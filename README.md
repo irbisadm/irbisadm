@@ -1,29 +1,31 @@
-### 👋 Hi there!
+### Igor Sheko
 
-I'm a software architect and hands-on engineer, building software since **2007**. My focus is real-time communications: I design and develop a commercial WebRTC SFU, work deep in libwebrtc internals, and care about the parts of the stack most people never open - RFCs included.
+**WebRTC & Real-Time Media Architect · Head of Engineering (Dev/SRE/DevOps)**
+Watford / London, UK
 
-I lead an engineering department spanning development, SRE and DevOps, and I still ship code myself - architecture decisions land better when you have to live with their consequences. My day-to-day stack is TypeScript and Go on the media-server side, with Vue.js when a front-end is called for.
+Software architect and hands-on engineer, building software since **2007**. My focus is real-time communications: I design and develop a commercial WebRTC SFU and work deep in libwebrtc internals, down to the RFC level.
 
-I'm always experimenting with the moving edge of the platform - lately WebCodecs, SVC / temporal scalability, AV1, ScreamV2 / L4S and WebTransport. Previously had practical fun with MediaStream Recording API, Intl, WebAR and WebUSB.
+I lead an engineering department spanning development, SRE and DevOps, and I still ship code myself. My day-to-day stack is TypeScript and Go on the media-server side.
 
-#### 🛠 webrtc.page
-I built and run **[webrtc.page](https://webrtc.page/)** - an MCP server that gives AI assistants deep, structured access to the [libwebrtc](https://webrtc.googlesource.com/src/) source tree. It indexes roughly two dozen Chrome milestones (plus a separate server for [pion](https://github.com/pion/webrtc), the Go implementation, with ~200 release tags), and exposes 30 tools: semantic code search, AST symbol navigation, version diffs, build-graph inspection, RFC lookup, and SDP/SIP parsing with stateful dialog tracking. Free to use for non-commercial purposes.
+Current areas of work: WebCodecs, SVC / temporal scalability, AV1, ScreamV2 / L4S, WebTransport.
 
-#### 📰 Social journalism
-I help build independent, Russian-language documentary media at **[pole.media](https://pole.media/)** - interactive longreads about the things that are hard to look at and easy to ignore. I do it because I believe in social journalism and its role in making the world a little less indifferent.
+**Core expertise:** WebRTC & SFU architecture · SIP · RTP/RTCP · FEC · bandwidth estimation & congestion control · libwebrtc internals · real-time media at scale
 
-Earlier work in this vein (with charity fund [Nuzhna Pomosh](https://nuzhnapomosh.ru/)) picked up a few international awards:
-- ["It's complicated"](https://takiedela.ru/vseslozhno/en) - interactive film about HIV . [Best Drama, Webfest Berlin 2018](https://www.webfest.berlin/2018-award-winners)
-- [Attitude towards homeless people and homelessness](https://takiedela.ru/homeless/en/) . [Winner, G8 2017, Non-commercial Projects](https://2017.ggggggggfest.com/en/works/362)
-- ["Warm waters, Kamchatka" by Vlad Sokhin](https://takiedela.ru/kamchatka/) . [Best Digital News Story, Visa pour l'image](https://www.visapourlimage.com/en/festival/awards-and-grants/visa-d-or-de-l-information-numerique-franceinfo)
+#### webrtc.page
+**[webrtc.page](https://webrtc.page/)** is an MCP server that gives AI assistants deep, structured access to the [libwebrtc](https://webrtc.googlesource.com/src/) source tree. It indexes roughly two dozen Chrome milestones (plus a separate server for [pion](https://github.com/pion/webrtc), the Go implementation, with ~200 release tags), and exposes 30 tools: semantic code search, AST symbol navigation, version diffs, build-graph inspection, RFC lookup, and SDP/SIP parsing with stateful dialog tracking.
 
-I also enjoy speaking at small regional IT conferences - I think it helps young engineers from remote regions level up and chips away at regional inequality.
+#### Talks
+- [How Chromium Manages WebRTC Bitrate](https://www.youtube.com/watch?v=4G6Cv1xN-aI) - VideoTech, 2025 (RU)
+- [Interview: Quality Control for WebRTC Sessions](https://www.youtube.com/watch?v=UwTD7axZ8KM) - VideoTech, 2024 (EN)
+- [Architecture kata: a video-calling platform](https://www.youtube.com/watch?v=ngfrZzdz-uU) - with Vadim Kleba, «{ между скобок }», 2025 (RU)
+- [Making Friends with WebRTC Statistics and Saving Thousands of Debugging Hours](https://www.youtube.com/watch?v=Lv1iVwlnqTk) - TechTrain, 2022 (RU)
+- [Modern UGC: Collecting Video Testimonials in the Browser without WebRTC](https://www.youtube.com/watch?v=ZY9AcASx2mc) - TechTrain, 2023 (RU)
+- [WebRTC Conferencing: the Interesting and Hard Parts](https://www.youtube.com/watch?v=EouVG6fW4xM) - GDG Rostov-on-Don, 2021 (RU)
 
----
+#### Open source
+- [simple-sdp](https://github.com/irbisadm/simple-sdp) ([npm](https://www.npmjs.com/package/@irbisadm/simple-sdp)) - WebRTC SDP parser and validator, influenced by pjsip
+- [iso-codec-string](https://github.com/irbisadm/iso-codec-string) ([npm](https://www.npmjs.com/package/@irbisadm/iso-codec-string)) - parse ISO codec strings (e.g. `avc1.64001f`) into objects
+- [webrtc.page](https://github.com/irbisadm/webrtc.page) - sources of the MCP servers above
 
-- 💬 Ask me about: WebRTC & SFU architecture, SIP, RTP/RTCP, libwebrtc internals, real-time media at scale
-- ⛑ Got a non-commercial project about HIV/AIDS (or social journalism) that needs dev support? Just sign me in - it's free.
-- 📫 How to reach me: [Telegram](https://t.me/irbisadm)
-- ⚡ Fun facts:
-  - I paint Warhammer 40k miniatures from time to time
-  - My Instagram exists purely for dumpling photography
+#### Contact
+[i@irbisadm.dev](mailto:i@irbisadm.dev) · [LinkedIn](https://www.linkedin.com/in/irbisadm)
