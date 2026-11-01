@@ -23,13 +23,12 @@ Invited expert at VideoTech 2025.
 - [Panel: Is WebRTC Half Alive or Half Dead?](https://vtconf.com/en/archive/2023/talks/20003549-is-webrtc-half-alive-or-half-dead/) - VideoTech, 2023 (RU)
 - [Architecture kata: a video-calling platform](https://www.youtube.com/watch?v=ngfrZzdz-uU) - with Vadim Kleba, «{ между скобок }», 2025 (RU)
 - [Making Friends with WebRTC Statistics and Saving Thousands of Debugging Hours](https://www.youtube.com/watch?v=Lv1iVwlnqTk) - TechTrain, 2022 (RU)
-- [Modern UGC: Collecting Video Testimonials in the Browser without WebRTC](https://www.youtube.com/watch?v=ZY9AcASx2mc) - TechTrain, 2023 (RU)
+- [Modern UGC: Collecting Video Testimonials in the Browser without WebRTC](https://www.youtube.com/watch?v=ZY9AcASx2mc) - TechTrain, 2022 (RU)
 - [WebRTC Conferencing: the Interesting and Hard Parts](https://www.youtube.com/watch?v=EouVG6fW4xM) - GDG Rostov-on-Don, 2021 (RU)
 
 #### Open source
-- [simple-sdp](https://github.com/irbisadm/simple-sdp) ([npm](https://www.npmjs.com/package/@irbisadm/simple-sdp)) - WebRTC SDP parser and validator, influenced by pjsip
+- [simple-sdp](https://github.com/irbisadm/simple-sdp) ([npm](https://www.npmjs.com/package/@irbisadm/simple-sdp)) - WebRTC SDP parser (experimental), influenced by pjsip
 - [iso-codec-string](https://github.com/irbisadm/iso-codec-string) ([npm](https://www.npmjs.com/package/@irbisadm/iso-codec-string)) - parse ISO codec strings (e.g. `avc1.64001f`) into objects
-- [webrtc.page](https://github.com/irbisadm/webrtc.page) - sources of the MCP servers above
 
 #### Contact
 [i@irbisadm.dev](mailto:i@irbisadm.dev) · [LinkedIn](https://www.linkedin.com/in/irbisadm)
