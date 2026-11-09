@@ -1,7 +1,7 @@
 ### Igor Sheko
 
 **WebRTC & Real-Time Media Architect · Head of Engineering (Dev/SRE/DevOps)**
-Watford / London, UK
+Watford / London, UK · [irbisadm.dev](https://irbisadm.dev)
 
 Software architect and hands-on engineer, building software since **2007**. My focus is real-time communications: I design and develop a commercial WebRTC SFU and work deep in libwebrtc internals, down to the RFC level.
 
@@ -12,7 +12,10 @@ Current areas of work: WebCodecs, SVC / temporal scalability, AV1, ScreamV2 / L4
 **Core expertise:** WebRTC & SFU architecture · SIP · RTP/RTCP · FEC · bandwidth estimation & congestion control · libwebrtc internals · real-time media at scale
 
 #### webrtc.page
-**[webrtc.page](https://webrtc.page/)** is an MCP server that gives AI assistants deep, structured access to the [libwebrtc](https://webrtc.googlesource.com/src/) source tree. It indexes roughly two dozen Chrome milestones (plus a separate server for [pion](https://github.com/pion/webrtc), the Go implementation, with ~200 release tags), and exposes 30 tools: semantic code search, AST symbol navigation, version diffs, build-graph inspection, RFC lookup, and SDP/SIP parsing with stateful dialog tracking.
+**[webrtc.page](https://webrtc.page/)** is a set of browser tools and MCP servers for WebRTC and SIP.
+
+- **MCP servers** give AI assistants version-aware access to eleven WebRTC and VoIP codebases: [libwebrtc](https://webrtc.googlesource.com/src/), [Pion](https://github.com/pion/webrtc), libdatachannel, coturn, Janus, Jitsi Videobridge, Kamailio, rtpengine, Asterisk, FreeSWITCH and sipXcom. Each one supports semantic code search, symbol navigation, diffs between versions and RFC lookup.
+- **Browser tools** run locally, and nothing is uploaded: an SDP inspector and editor, a SIP ladder diagram built from a pcap, and a codec string decoder.
 
 #### Talks
 Invited expert at VideoTech 2025.
@@ -27,8 +30,11 @@ Invited expert at VideoTech 2025.
 - [WebRTC Conferencing: the Interesting and Hard Parts](https://www.youtube.com/watch?v=EouVG6fW4xM) - GDG Rostov-on-Don, 2021 (RU)
 
 #### Open source
-- [simple-sdp](https://github.com/irbisadm/simple-sdp) ([npm](https://www.npmjs.com/package/@irbisadm/simple-sdp)) - WebRTC SDP parser (experimental), influenced by pjsip
-- [iso-codec-string](https://github.com/irbisadm/iso-codec-string) ([npm](https://www.npmjs.com/package/@irbisadm/iso-codec-string)) - parse ISO codec strings (e.g. `avc1.64001f`) into objects
+- [goog-cc-as](https://github.com/irbisadm/goog-cc-as): a port of libwebrtc's GoogCC send-side congestion control (M154) to AssemblyScript/WebAssembly. CI checks its output against upstream C++ on simulated scenarios and on real RtcEventLog recordings, and the outputs match exactly.
+- [rtc-event-log](https://github.com/irbisadm/rtc-event-log) ([npm](https://www.npmjs.com/package/@irbisadm/rtc-event-log)): a TypeScript port of libwebrtc's RtcEventLog parser for the legacy, new and v3 formats. Tests check it against the upstream parser. Work in progress.
+- [simple-sdp](https://github.com/irbisadm/simple-sdp) ([npm](https://www.npmjs.com/package/@irbisadm/simple-sdp)): parses, modifies, writes and validates SDP (RFC 8866) for WebRTC and SIP.
+- [sip-pcap](https://github.com/irbisadm/sip-pcap) ([npm](https://www.npmjs.com/package/@irbisadm/sip-pcap)): extracts SIP calls, hops and the SDP offer/answer on each hop from pcap and pcapng captures. Works in Node.js and in browsers.
+- [iso-codec-string](https://github.com/irbisadm/iso-codec-string) ([npm](https://www.npmjs.com/package/@irbisadm/iso-codec-string)): parses and generates RFC 6381 codec strings (e.g. `avc1.64001f`, `av01.0.04M.08`).
 
 #### Contact
-[i@irbisadm.dev](mailto:i@irbisadm.dev) · [LinkedIn](https://www.linkedin.com/in/irbisadm)
+[irbisadm.dev](https://irbisadm.dev) · [i@irbisadm.dev](mailto:i@irbisadm.dev) · [LinkedIn](https://www.linkedin.com/in/irbisadm)
